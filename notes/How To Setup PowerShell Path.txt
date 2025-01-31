@@ -1,0 +1,9 @@
+** How to setup PATH environment in Powershell
+$Env:PATH += ';C:/Users/student/AppData/Local/Programs/Python/Python313/Scripts'
+
+** To verify the policies in window machine
+Get-ExecutionPolicy -List
+Get-ExecutionPolicy -Scope CurrentUser
+
+** To set policy for the scope user
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
